@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/final-react-project-maxima/static/css/main.55bd2c3c.css",
+    "main.js": "/final-react-project-maxima/static/js/main.73ab751f.js",
+    "static/media/Roboto-Medium.woff": "/final-react-project-maxima/static/media/Roboto-Medium.2fde0c6a17d2b60bc046.woff",
+    "static/media/Roboto-Regular.woff": "/final-react-project-maxima/static/media/Roboto-Regular.3982c896c69c200b1466.woff",
+    "static/media/Roboto-Light.woff": "/final-react-project-maxima/static/media/Roboto-Light.2dec4eb796a7f8be3c62.woff",
+    "static/media/Roboto-Medium.woff2": "/final-react-project-maxima/static/media/Roboto-Medium.e5a1d44e60ff26650f48.woff2",
+    "static/media/Roboto-Regular.woff2": "/final-react-project-maxima/static/media/Roboto-Regular.5c8a336e7cd7d56e3a49.woff2",
+    "static/media/Roboto-Light.woff2": "/final-react-project-maxima/static/media/Roboto-Light.7f18ed363d6adf6120e3.woff2",
+    "index.html": "/final-react-project-maxima/index.html",
+    "main.55bd2c3c.css.map": "/final-react-project-maxima/static/css/main.55bd2c3c.css.map",
+    "main.73ab751f.js.map": "/final-react-project-maxima/static/js/main.73ab751f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55bd2c3c.css",
+    "static/js/main.73ab751f.js"
+  ]
+}
