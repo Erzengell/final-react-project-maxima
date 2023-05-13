@@ -10,7 +10,7 @@ function CardProducts() {
 
     const [ products, setProducts ] = useState([]);
     useEffect(() => {
-        fetch('https://fake-items-api.herokuapp.com/items')
+        fetch('https://kind-puce-cricket-kit.cyclic.app/items')
             .then((response) => response.json())
             .then((result) => {
                 setProducts(result);
