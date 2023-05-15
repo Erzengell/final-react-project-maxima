@@ -13,18 +13,17 @@ function Header() {
                     <ul className={'header__list list'}>
                         {
                             window.location.pathname !== '/sign-up' ? <div>
-                                <li className={'list__link'}>
-                            <NavLink to={'/'} className={'header__navlink'}>Home</NavLink>
-                        </li>
-                        <li className={'list__link'}>
-                            <NavLink to={'/cart'} className={'header__navlink'}>Cart</NavLink>
-                        </li>
-                        <li className={'list__link'}>
-                            <NavLink to={'/sign-up'} className={'header__navlink'}>Sign up</NavLink>
-                        </li>
+                                <li className={'list__links'}>
+                                    <NavLink to={'/'} className={'header__navlink'} >Home</NavLink>
+                                </li>
+                                <li className={'list__links'}>
+                                    <NavLink to={'/cart'} className={'header__navlink'}>Cart</NavLink>
+                                </li>
+                                <li className={'list__links'}>
+                                    <NavLink to={'/sign-up'} className={'header__navlink'}>Sign up</NavLink>
+                                </li>
                             </div> : null
                         }
-                        
                     </ul>
                 </div>
             </div>

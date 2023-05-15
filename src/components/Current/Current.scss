@@ -14,7 +14,7 @@
 }
 
 .current__title {
-    margin: 115px 0 37px 100px;
+    margin: 100px 0 37px 100px;
     color: #fff;
     font-size: 64px;
     font-weight: 700;
@@ -32,15 +32,15 @@
 
 .current__right {
     flex: 0 0 50%;
+    text-align: center;
 }
 
 .current__image {
-    // margin: 50px 170px 0 100px;
-    margin-left: 100px;
+    max-width: 100%;
 }
 
-.swit {
-    height: 50px;
-    width: 50px;
-    transform: rotate(90deg);
+@media screen and (min-width: 320px) and (max-width: 800px) {
+    .current__container {
+        flex-direction: column-reverse;
+    }
 }

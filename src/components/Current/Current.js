@@ -7,7 +7,7 @@ const text = 'Buy now';
 function Current() {
     const [ products, setProducts ] = useState([]);
     useEffect(() => {
-        fetch('https://fake-items-api.herokuapp.com/items/5')
+        fetch('https://kind-puce-cricket-kit.cyclic.app/items/5')
             .then((response) => response.json())
             .then((result) => {
                 setProducts(result);
@@ -29,13 +29,7 @@ function Current() {
                 </div>
             </div>
         </>
-        
     )
-
-
-
-
-    
 }
 
 export default Current;

@@ -26,7 +26,6 @@
 }
 
 .header__navlink {
-    text-decoration: none;
     color: #fff;
     font-weight: 400;
     font-size: 20px;
@@ -36,9 +35,13 @@
     display: flex;
 }
 
-.list__link {
+.list__links {
     margin-left: 0;
     list-style: none;
     display: inline-block;
-    margin: 0 50px;
+    margin: 0 25px;
+}
+
+.header__navlink.active {
+    text-decoration: underline;
 }

@@ -8,7 +8,7 @@ function ProductPage() {
     const [ product, setProduct ] = useState({});
 
     useEffect(() => {
-        fetch(`https://fake-items-api.herokuapp.com/items/${productId}`)
+        fetch(`https://kind-puce-cricket-kit.cyclic.app/items/${productId}`)
             .then((response) => response.json())
             .then((result) => {
                 setProduct(result);

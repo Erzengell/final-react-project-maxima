@@ -4,9 +4,7 @@
 
 .cart__container {
     max-width: 1380px;
-    display: flex;
-}
-
-.cart__up {
-    height: 100vh;
+    min-height: 80vh;
+    // display: flex;
+    flex-direction: column;
 }
